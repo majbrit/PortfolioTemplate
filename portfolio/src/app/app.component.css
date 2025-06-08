@@ -16,7 +16,7 @@ body {
   margin: 0px auto; 
 }
 .content {
-  padding: 35px;
+  padding: 100px 20%;
   display: grid;
   padding-bottom: 112px;
 }
@@ -29,6 +29,17 @@ body {
   position: absolute;
   bottom: 0px;
   width: 100%;
+}
+
+.header{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1000;
+
 }
 
 

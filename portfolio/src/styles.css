@@ -19,6 +19,9 @@
   --white: #FFFFFF;
 
   --blue: #0f1e3a;
+  --grey: #465666;
+  --light-blue: #3374a8;
+  --grey-a: #465666d3;
 }
 
 
@@ -26,4 +29,5 @@
  font-family: Titillium Web;
  margin: 0;
  padding: 0;
+ color: var(--grey);
 }

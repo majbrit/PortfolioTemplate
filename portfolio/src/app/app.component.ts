@@ -20,7 +20,7 @@ import { ResearchComponent } from './components/research/research.component';
     CurriculumVitaeComponent,
     HomeComponent,
     PublicationsComponent,
-    ResearchComponent 
+    ResearchComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

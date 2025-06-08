@@ -5,9 +5,15 @@
         <div class="navlogo">
             <a routerLink="/home">Name</a>
         </div>
-        <ul class="navlist">
-            <li class="navitem"><a routerLink="/publications">Publications</a></li>
-            <li class="navitem"><a routerLink="/research">Research</a></li>
+
+        <button class="burger" [class.open]="menuOpen" (click)="toggleMenu()" aria-label="open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="navlist" [class.show]="menuOpen">
+            <li class="navitem"><a routerLink="/publications" (click)="toggleMenu()">Publications</a></li>
+            <li class="navitem"><a routerLink="/research" (click)="toggleMenu()">Research</a></li>
         </ul>
     </nav>
 </div>

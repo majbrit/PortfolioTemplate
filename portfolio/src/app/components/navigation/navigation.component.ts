@@ -14,5 +14,9 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navigation.component.css'
 })
 export class NavigationComponent {
+  menuOpen = false;
 
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 }
