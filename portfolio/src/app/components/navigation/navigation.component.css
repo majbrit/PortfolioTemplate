@@ -1,0 +1,46 @@
+*{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.inside {
+    padding: 20px 20px;
+}
+
+
+
+.navbar {
+    margin: 0px 20px;
+    top: 20px;
+    overflow: hidden;
+    padding: 0px 15px;
+ }
+
+.navlist {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+  
+.navitem {
+    float: left;
+}
+  
+.navitem a {
+  display: block;
+  text-align: center;
+  padding: 0px 10px;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+  
+.navlogo a {
+  display: block;
+  text-align: center;
+  
+  margin: 0px;
+  text-decoration: none;
+  float: left;
+  align-items: center;
+}

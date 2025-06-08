@@ -1,0 +1,48 @@
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.page {
+  position: relative;
+  min-height: 100%;
+  margin: 0px auto; 
+}
+.content {
+  padding: 35px;
+  display: grid;
+  padding-bottom: 112px;
+}
+
+.footer {
+  box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    margin: 20px;
+  }
+}
+
+
+
+
+
+
+
+

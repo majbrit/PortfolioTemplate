@@ -1,0 +1,11 @@
+* {
+    width: 100vw;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px 20px;
+}
+
+a {
+    margin: 0px 15px;
+    text-decoration: none;
+}
