@@ -1,0 +1,28 @@
+.profile {
+    display: flex;
+    gap: 20px;
+
+}
+
+.pic {
+    width: 100%;
+}
+
+.picFlex {
+    flex: 0 0 25%;
+}
+
+.textFlex {
+   flex: 0 0 75%;
+}
+
+@media (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .picFlex, .textFlex {
+        flex: 0 0 100%;
+    }
+}
+

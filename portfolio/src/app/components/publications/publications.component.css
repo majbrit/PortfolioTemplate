@@ -1,8 +1,12 @@
-plotly-plot {
-  display: block;
-  margin: 2rem 0;
-}
 
 .plotContainer {
   width: 60vw;
+  height: 60vh;
+}
+
+@media only screen and (max-width: 1024px) {
+  .plotContainer {
+    width: 90vw;
+    height: 80vw;
+  }
 }
